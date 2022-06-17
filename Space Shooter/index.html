@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Space Shooter</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <script
+    src = "https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"
+    ></script>
+    <script src="./lib/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="./lib/sweetalert.css" type = "text/css" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.5/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCzvrpZeS3J63KBzuLZSNLWUSk_iRwZy_E",
+        authDomain: "car-driving-sim-dab2b.firebaseapp.com",
+        databaseURL: "https://car-driving-sim-dab2b-default-rtdb.firebaseio.com",
+        projectId: "car-driving-sim-dab2b",
+        storageBucket: "car-driving-sim-dab2b.appspot.com",
+        messagingSenderId: "1027268250216",
+        appId: "1:1027268250216:web:26cc0233d445354db2c9dd"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+    
+    
+
+    <!-- Firebase SDK CODE ADD BELOW -->
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
